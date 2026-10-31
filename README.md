@@ -46,5 +46,6 @@ Many thanks to :
   - Specific artist credits can be found [here](MOE_OFF_CREDITS.md).
 - BlizzWhite, from the [Moémon Official](https://discord.gg/fHPHSVNaqQ) Discord server, for providing the title screen logo.
 - The [Moémon Project](https://discord.gg/p7eUWPamde) Discord server, for providing some of the sprites used here.
+  - Database with artist credits can be found [here](https://docs.google.com/spreadsheets/d/1LNnneTnFlEZ4J5yKzmRZLw7rSAhg4qN7).
 - [silversiasma](https://github.com/silversisama), for the Pokémon Ride System (ported from Emerald Rogue) (link [here](https://github.com/silversisama/EE-Ride-System/tree/ride-system)).
 - [YuEatMaButt](https://github.com/YuEatMaButt) and [TheKewn01](https://github.com/TheKewn01), for the Overworld Encounter feature (link [here](https://github.com/YuEatMaButt/pokehns-expansion-rice/releases/tag/OWE)).
