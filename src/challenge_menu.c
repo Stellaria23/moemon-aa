@@ -654,7 +654,7 @@ static const u8 *const sDesc_ShinyColor[] = {
     COMPOUND_STRING("Some shiny {PKMN} have brand new\nsprites."),
 };
 static const u8 *const sDesc_FeaturesNext[] = {
-    COMPOUND_STRING("Continue to Randomizer options."),
+    COMPOUND_STRING("Continue to Nuzlocke options."),
 };
 
 static const struct ChallengeMenuItem sTabItems_Features[] = {
@@ -1909,7 +1909,11 @@ static void Task_ProcessInput(u8 taskId)
         && items[input].numChoices == 0
         && sMenu->currentTab < TAB_COUNT - 1)
     {
-        SwitchTab(taskId, +1);
+        if(sMenu->currentTab == TAB_FEATURES)
+            SwitchTab(taskId, +2);
+        else 
+            SwitchTab(taskId, +1);
+        return;
     }
 }
 
